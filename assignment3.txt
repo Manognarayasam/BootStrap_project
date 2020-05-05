@@ -1,0 +1,83 @@
+<div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+         
+          
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Reserve a Table</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group col-sm-4">
+                                      <label for="fname">Number of guests</label>
+                                      <label>
+                        <input type="radio" name="editList" value="1"/>1
+                       </label>
+                       <label>
+                        <input type="radio" name="editList" value="2"/>2
+                       </label>
+                       <label>
+                        <input type="radio" name="editList" value="3"/>3
+                       </label>
+                       <label>
+                       <input type="radio" name="editList" value="4"/>4
+                       </label>
+                       <label>
+                       <input type="radio" name="editList" value="5"/>5
+                       </label>
+                       <label>
+                       <input type="radio" name="editList" value="6 "/>6
+                       </label><br /><br />
+                       
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                      
+                                    </div>
+                                    <div class="col-sm-auto">
+                                      <label for="fname">Date and Time</label>
+                                      <input
+                                        type="text"
+                                        id="fname"
+                                        name="fname"
+                                        placeholder="Date"
+                                        size="10"
+                                      />
+                                      <input
+                                        type="text"
+                                        id="fname"
+                                        name="fname"
+                                        placeholder="Time"
+                                        size="10"
+                                      />
+                                      <br /><br />
+                                    </div>
+                                </div>
+                  
+                  </div>
+                </div>
+                <div class="form-row">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-sm ml-auto"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="btn btn-primary btn-sm ml-1">
+                    Reserve
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+<script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
